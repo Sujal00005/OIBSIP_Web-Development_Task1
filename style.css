@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+}
+
+.navbar li{
+list-style: none;
+margin: 0 12px;
+font-family: "Edu AU VIC WA NT Pre"
+}
+
+.navbar {
+display: flex;
+height: 67px;
+}
+
+.topleft{
+    width: 50%;
+    height: 155px;
+}
+
+.topright{
+    width: 50%;
+    height: 155px;
+}
+
+.section1{
+   max-height:100vh;
+}
+
+.section1 h1{
+   font-size: 2rem;
+}
+
+.logo{
+    font-size: 1.5rem;
+}
+
+.dugga1img{
+    width: 283px;
+}
+
+.topright .dugga2img{
+    width: 466px;
+    height:592px;
+}
+
+.section2 h1{
+    font-size: 3rem;
+}
+.section2{
+    padding:73px;
+
+
+}
+.section2 p{
+padding: 0 8vw;
+text-align: center;
+ 
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 6px;
+    min-width:17vw;
+    border: 0.8px solid rgb(189, 18, 18);
+    border-radius: 8px;
+    text-align: center;
+    text-align-last: center;
+   
+}
+
+.box h2{
+    font-size: 1.8rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul li{
+    margin: 12px 2px;
+    list-style-type: none;
+    text-align:justify;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+width:100%;
+margin-bottom:140px;
+margin-top:20px;
+border-collapse: collapse;
+}
+
+.section3 table th{
+width:23vw;
+border-bottom: 2px solid black;
+padding: 15px 0;
+}
+
+.section3 table td{
+    border-bottom: 2px solid black;
+}
+
+
+.section3 h1{
+    font-size: 2rem;
+}
+
+.section3{
+    padding:73px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
+
+.p fontsize{
+    text-size-adjust:1 rem;
+}
